@@ -24,7 +24,7 @@ The purpose of this model is to get data information - condition information in 
 There was a trial to combine Auto-Encoder and GAN in the paper https://arxiv.org/abs/1512.09300, know as VAE-GAN. The purpose of this research is to disentangle features in latent domain of GAN, which is different with my research. One of the post work of this research is "CVAE-GAN: fine-grained image generation through asymmetric training." by Bao, Jianmin, et al. This works also combined conditioning with VAE-GAN but focused on disentanglement in latent domain for conditioned generation. Focus of my research is proving autoencoder functions as a subtraction encoder and applying style transfer with this model.    
 
 
-### Additional Result (Not included in code above )
+### Additional Result (Not included in code above, but same model with same process)
 I propose my model can be used not only for MNIST data, but also for the Real images with Sketch/Color conditions.    
 
 - grey images is used as condition, All the color is tranferred to first image.
